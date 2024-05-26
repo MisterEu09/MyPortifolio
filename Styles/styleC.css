@@ -117,3 +117,14 @@ p{
     color: #316967;
     transform: translateY(3px);
 }
+.like
+{
+    width: 29.5vw;
+    display: inline-flex;
+}
+.like input
+{
+    margin: 4px;
+    /* padding: 18px; */
+    width: 18px;
+}
