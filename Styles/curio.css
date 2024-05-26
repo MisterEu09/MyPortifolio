@@ -1,4 +1,5 @@
-@font-face {
+@font-face 
+{
     font-family: "Buenard", serif;
     src: url(/fontes/Buenard-Regular.ttf);
 } 
@@ -20,14 +21,19 @@
 
     width: 15vw;
 }
-#text{width: 250px;}
-#areaTable h1{
+#text
+{
+    width: 250px;
+}
+#areaTable h1
+{
     text-align: center;
     padding: 20px;
     font-size: 2em;
 
 }
-h1{
+h1
+{
     color: #1f1f1f;
     font-family: "Buenard";
     text-align: center;
