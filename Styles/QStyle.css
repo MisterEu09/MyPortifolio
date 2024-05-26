@@ -1,0 +1,534 @@
+@charset "UTF-8";
+/*
+@media screen and (min-width: 320px) 
+{
+    .timeline p
+    {
+        background-color: rgb(0, 255, 136);
+        font-size: 14px;
+    }
+    #textHi {
+        font-size: 4rem;
+    }
+    #Formations {
+        width: 83vw;
+        font-size: 1.8em;
+    }    
+    #sobreMe {
+        align-items: center;
+        top: 0%;
+        display: block;
+    }    
+    #sobreMe img {
+        margin: auto;
+        width: 29vw;
+        height: 29vw;
+        display: block;
+    }
+#aboutMe {
+    display: block;
+    height: 64vh;
+    border: 2px solid #111a29;
+    border-radius: 15%;
+    margin-top: 15%;
+    padding: 22px;
+    margin-top: 3.5%;
+}
+#aboutMe p {
+    /* height: 70vh; 
+    font-size: 14px;
+}
+}*/
+@media screen and (min-width: 400px) 
+{
+    
+}
+@media screen and (min-width: 420px) 
+{
+    #SMenu
+    {
+    display: inline-flex;
+    position: relative;
+    left: 2.1%;
+    transform: rotate(-20deg);
+    }
+    #Imagine
+{
+    top: -8%;
+}
+#Marvel
+{
+    top: 6%;
+    left: 10%;
+    width: 141px;
+}
+
+}
+@media screen and (min-width: 450px) 
+{
+    #S {
+        right: 64%;
+    }
+    #Miranha {
+        width: 69px;
+        top: 3%;
+        left: 2%;
+    }
+    #redes {
+        left: 1%;
+    }
+    #Hi 
+    {
+    display: inline;
+    position: relative;
+    top: 28%;
+    left: 11%;
+    }
+    #kills:hover span
+    {
+        top: 0%;
+        right: 64%;
+        transform: rotate(0deg);
+    }
+    #aboutMe {
+        height: 59vh;
+    }
+    #MySkills {
+        width: 74vw;
+    }    
+    #Imagine {
+        top: 16%;
+    }
+    #TimeLine img {
+        top: 9%;
+    }
+}
+@media screen and (min-width: 500px) 
+{
+    #aboutMe p {
+        font-size: 15px;
+        height: 70vh;
+    }
+    #Imagine {
+        top: -25%;
+    }
+    #sobreMe {
+        height: 100vh;
+        /* margin: auto; */
+        /* align-items: center; */
+        display: flex;
+        /* justify-content: center; */
+    }
+    #S {
+        right: 62%;
+    }
+    #kills:hover span
+    {
+        top: 0%;
+        right: 61%;
+        transform: rotate(0deg);
+    }
+}
+
+@media screen and (min-width: 550px) 
+{
+    /*Sobre*/
+    header
+    {
+        padding:30px 0 0 20px;
+    }
+    #redes {
+        top: 8%;
+    }
+#Miranha {
+    display: flex;
+    width: 76px;
+    position: relative;
+    top: 8%;
+    left: 1%;
+}
+#textHi {
+    font-size: 4rem;
+}
+#Formations {
+    width: 83vw;
+    font-size: 1.8em;
+}
+#SMenu {
+    display: inline-flex;
+    position: relative;
+    left: 1.5%;
+    transform: rotate(-20deg);
+}
+/*Skills*/
+#kills:hover span
+{
+    top: 0%;
+    right: 62%;
+    transform: rotate(0deg);
+}
+}
+@media screen and (min-width: 580px) 
+{
+    #S 
+    {
+        right: 61%;
+    }
+    #kills:hover span
+    {
+        top: 0%;
+        right: 60%;
+        transform: rotate(0deg);
+    }
+#MySkills 
+{
+    left: 12%;
+}
+#Tony {
+    right: 0%;
+    top: -11%;
+    width: 27vw;
+}
+#ComingSoon h2 {
+
+}
+    #Imagine 
+    {
+        top: 9%;
+    }    
+    #Marvel {
+        top: 0%;
+        left: 66%;
+        width: 146px;
+    }
+    #S 
+    {
+    right: 60%;
+    }
+    #kills:hover span
+    {
+        top: 0%;
+        right: 59%;
+        transform: rotate(0deg);
+    }
+
+    footer {
+        height: 37vh;
+        width: 100vw;
+        display: inline-block;
+        text-align: center;
+    }
+}
+@media screen and (min-width: 730px) 
+{
+    #aboutMe {
+        height: 55vh;
+    }
+    #Imagine {
+        top: 7%;
+    }
+#Marvel {
+    top: 4%;
+    width: 155px;
+}
+#S {
+    right: 59%;
+}
+#kills:hover span
+    {
+        top: 0%;
+        right: 58%;
+        transform: rotate(0deg);
+    }
+    #MySkills img {
+        width: 13vw;
+    }
+    #Tony {
+        right: -5%;
+        top: -7%;
+        width: 21vw;
+    }
+    #Imagine {
+        top: -35%;
+    }
+    #LogoMisterMy {
+        left: 42%;
+    }    
+}
+@media screen and (min-width: 750px)
+{
+    #burguer{
+        display: none;
+    }
+    #itens{
+        display: block;
+    }
+    nav{
+        height: auto;
+        overflow-y: unset;
+        flex-basis: unset;
+    }
+    nav ul li{
+        display: inline-block;
+        border-bottom: none;
+    }
+    nav a{
+        padding: 8px 12px;
+    }
+    #SMenu {
+        left: 18.5%;
+    }
+    #Miranha {
+        left: 2%;
+    }
+    #redes {
+        left: 2%;
+    }
+    #aboutMe {
+        height: 46vh;
+    }
+    #Imagine {
+        width: 31vw;
+    }
+    #LogoMisterMy {
+
+        left: 41%;
+        top: 5%;
+    }
+    #ComingSoon h2 #CSo1 {
+        top: 7%;
+    }
+    #Projects img {
+        right: -16%;
+    }    
+    footer {
+        height: 34vh;
+    }
+    footer p{
+        top: -14%;
+    }
+    #FotterRedes
+    {
+    top: -5%;
+    }
+}
+@media screen and (min-width: 880px)
+{
+    #redes {
+        left: 3%;
+    }
+    #Miranha {
+        width: 82px;
+        left: 2.8%;
+}
+    #Imagine {
+        top: 0%;
+    }
+    #Marvel {
+        top: 10%;
+        width: 164px;
+    }
+    #S {
+        right: 57%;
+    }
+    #kills:hover span
+    {
+        right: 56%;
+    }
+}
+@media screen and (min-width: 980px)
+{
+    #Imagine {
+        top: -34%;
+        width: 21vw;
+    }
+    #aboutMe p {
+        top: 10%;
+        font-size: 1.3rem;
+    }
+    #TimeLine img {
+        left: 66%;
+    display: flex;
+    position: relative;
+    top: 24px;
+    width: 196px;
+    }
+    #S {
+        right: 56%;
+    }
+    #kills:hover span
+    {
+        right: 56%;
+    }
+    #MySkills img {
+        width: 10vw;
+    }
+    
+    #MySkills {
+        left: 16%;
+        width: 68vw;
+    }
+    #Tony {
+        right: -7%;
+        top: -11%;
+        width: 22vw;
+    }
+    #ComingSoon h2 {
+        font-size: 2.8rem;
+    }
+    #LogoMisterMy {
+        left: 43%;
+        top: 5%;
+        width: 158px;
+    }
+}
+/*@media screen and (min-width: 980px)
+{
+    #textHi {
+        font-size: 5rem;
+    }
+    #Formations {
+        font-size: 2rem;
+    }
+#Imagine {
+    top: -11%;
+}
+#S {
+    right: 55%;
+}
+#MySkills p {
+    font-size: 1.8rem;
+}
+#Tony {
+    right: -7%;
+    top: -15%;
+    width: 20vw;
+}
+#ComingSoon h2 {
+    right: -28%;
+}
+footer p {
+    font-size: 1.2rem;
+}
+}*/
+@media screen and (min-width: 1080px)
+{
+    #Imagine {
+        top: -16%;
+    }
+    #TimeLine p {
+        font-family: Buenard;
+        line-height: 120%;
+        font-size: 1.3em;
+    }
+    #Marvel {
+        top: 0%;
+    }
+    #MySkills {
+        left: 25%;
+        width: 55vw;
+    }
+    #Tony {
+        right: -19%;
+        top: -17%;
+        width: 16vw;
+    }
+    #ComingSoon h2 {
+      
+    }
+    #Projects img {
+        right: -29%;
+    }
+    #LogoMisterMy {
+        left: 45%;
+    }
+}
+@media screen and (min-width: 1300px)
+{
+    section
+    {
+        height: 100vh;
+    }
+    #home
+    {
+        display: inline-flex;
+    }
+    #Miranha
+    {
+        margin-top: 10px;
+        display: block;
+        height: 115px;
+    }
+    #S 
+    {
+        right: 54%;
+    }
+    #kills:hover span
+    {
+        right: 54%;
+    }
+    #sobreMe {
+        width: 85vw;
+        height: 59vh;
+        margin: auto;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    #sobreMe img
+    {
+        height: 25vw;
+        width: 25vw;
+    }
+    #aboutMe
+    {
+        width: 50vw;
+    }
+    #Imagine {
+        top: 0%;
+        left: 1%;
+        width: 20vw;
+    }
+    #MySkills
+    {
+        height: 45vh;
+        padding-left: 150px;
+        padding-right: 150px;
+        width: 50vw;
+    }
+    #SkillsImg
+    {
+        text-align: center;
+    }
+    #MySkills img 
+    {
+        width: 5vw;
+    }
+    #CoS1
+    {
+        display: none;
+        background-color: darkblue;
+    }
+    #Projects img {
+        top: 22%;
+    }
+    #CS2
+    {
+        top: -60%;
+        display: block;
+    }
+    footer {
+        /* background: aqua; */
+        height: 18vh;
+        padding: 10px;
+    }
+    .imgsRedes {
+        width: 26px;
+    }
+    #LogoMisterMy {
+        left: 48%;
+        display: flex;
+        top: -10%;
+        width: 76px;
+    }
+}

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portifolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Buenard:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Styles/curio.css">
+    <link rel="stylesheet" href="Styles/style.css">
+    <link rel="stylesheet" href="Styles/QStyle.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+<body onresize="mudouTamanho()">
+    <header>
+        <a href="index.html" class="logo">My Portifolio</a>
+        <span id="burguer" class="material-icons" onclick="clickMenu()" >menu</span>
+        <nav id="itens">
+<ul>
+    <li><a href="index.html">About Me</a></li>
+    <li><a href="index.html">TimeLine</a></li>
+    <li id="skill"><span id="SMenu">S</span><a id="killsMenu" href="index.html">kills</a></li>
+    <li><a href="index.html">Projects</a></li>
+    <li><a href="Contato.html">Contact</a></li>
+    <li><a href="Curiosidades.html">Curiosidades</a></li>
+</ul>
+        </nav>
+    </header>
+    <label class="switch" onclick="verificar()">
+        <img id="sol" src="img/sol.png" alt="">
+        <input id="checkbox" type="checkbox">
+        <span class="slider round"></span>
+        <img id="lua" src="img/lua.png" alt="">
+      </label>
+    <br>
+    <div id="home homeCurio">
+        <div id="teiaMiranha">
+            <div id="redes">
+                <img src="img/Icon GitHub.png" alt="Icon GitHub">
+                <img src="img/TwitterLogo.png" alt="Icon Twiter">
+                <img src="img/IconInsta.png" alt="Icon Insta">
+            </div>
+             <img id="Miranha" onclick="clickMiranha()" src="img/Miranha.png" alt="Imagem Homem Aranha pendurado na teia">
+        </div>
+    </div>
+    <h1>Pequena Curiosidade Randon</h1>
+<div id="areaTable">
+    <table id="tabela">
+        <h1 id="titleTable">
+                Minhas músicas favoritas
+        </h1>
+        <thead>
+            
+            <tr>
+                <th id="dataTable"> Banda </th>
+                <th id="dataTable2"> música </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="dataTable3">Led Zeppelin</td>
+                <td id="dataTable4">Immigrant Song</td>
+            </tr>
+            <tr>
+                <td id="dataTable5">Imagine Dragons</td>
+                <td id="dataTable6">Lonely</td>
+            </tr>
+            <tr>
+                <td id="dataTable7">AC/DC</td>
+                <td id="dataTable8">Back In Black</td>
+            </tr>
+        </tbody>
+    </table>
+</div>       
+
+
+<footer id="contact"> 
+    <img id="LogoMisterMy" src="img/MisterLogo.png" alt="Logo MisterEu">
+    <p>Desenhado e construido by <span id="MisterEu">MisterEu</span> with <span id="Love">Love</span> & <span id="Coffee">Coffee</span></p>
+    <div id="FotterRedes">
+        <img class="imgsRedes" src="img/Icon GitHub.png" alt="Icon GitHub">
+        <img class="imgsRedes" src="img/TwitterLogo.png" alt="Icon Twiter">
+        <img class="imgsRedes" src="img/IconInsta.png" alt="Icon Insta">
+    </div>
+</footer>
+    <script>
+        function clickMenu(){
+           if( itens.style.display == 'block'){
+           itens.style.display ='none'
+           }
+           else{
+            itens.style.display = "block"
+           }
+        }
+        function clickMiranha(){
+           if( redes.style.display == 'block'){
+           redes.style.display ='none'
+           }
+           else{
+            redes.style.display = "block"
+           }
+        }
+        function mudouTamanho(){
+            if (window.innerWidth>=742){
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display ='none'
+            }
+            if(window.innerHTML < 700){
+                itens.style.height= '500px'
+            }
+            /*if (window.innerWidth>=1300){
+                CS1.style.display = 'block'
+            }
+            else {
+                itens.style.display ='none'
+            }
+            if(window.innerHTML < 700){
+                itens.style.height= '500px'
+            }*/
+        }
+    </script>
+</body>
+</html>
